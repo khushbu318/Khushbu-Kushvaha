@@ -37,7 +37,7 @@ const ExpCard = (props: any) => {
                         >
                             <Group>
                                 <div className="flex flex-row xs-mx:!flex-row ">
-                                <Avatar src="/cg.png" size={50} alt={exp.company} className="mr-2" />
+                                <Avatar src="cg.png" size={50} alt={exp.company} className="mr-2" />
                                 <Text fw={500} size="md" className="text-lg sm:text-base md:text-sm xs-mx:!text-[9px]">
                                     <h1 className="!text-primaryColor text-md font-mono font-semibold xs-mx:text-[10px]">{exp.title}</h1>
                                     {exp.duration}

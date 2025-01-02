@@ -50,7 +50,7 @@ const About = () => {
 
                     <div className="flex gap-10">
                         <Button onClick={open} className="!text-bgColor !w-fit" variant="filled" color="#64FFDA" size={btn}>Check Resume</Button>
-                        <Button component="a" href="/resume.pdf" download={Info.name} className="!text-primaryColor !w-fit" variant="outline" color="#64FFDA" size={btn} rightSection={<IconDownload size={20} />}>Download</Button>
+                        <Button component="a" href="resume.pdf" download={Info.name} className="!text-primaryColor !w-fit" variant="outline" color="#64FFDA" size={btn} rightSection={<IconDownload size={20} />}>Download</Button>
                     </div>
 
                 </div>
@@ -59,7 +59,7 @@ const About = () => {
                     <NeonGradientCard className="w-[420px] h-[390px] lg-mx:w-64 lg-mx:h-64 max-w-sm items-center justify-center text-center rounded-full mb-14 xs-mx:w-56 xs-mx:h-56 xs-mx:mr-10 xs-mx:mb-3">
                         <img
                             className="w-full h-full rounded-full"
-                            src="/new_pic.jpg"
+                            src="new_pic.jpg"
                             alt="profile"
                         />
                     </NeonGradientCard>

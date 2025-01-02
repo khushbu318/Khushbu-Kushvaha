@@ -2,7 +2,7 @@ import { Avatar } from "@mantine/core";
 
 const SkillBadge=(skills:[])=>{
     return skills.map((skill:any, index:number)=> <div key={index} className="flex border-textColor border rounded-2xl items-center px-3 py-2 bs-mx:py-0 bs-mx:px-1.5 bs-mx:gap-1 mb-1">
-        <img className="w-[48px] bs-mx:w-[35px] xsm-mx:w-[28px] !p-3" src={`/Icons/${skill}.png`} />
+        <img className="w-[48px] bs-mx:w-[35px] xsm-mx:w-[28px] !p-3" src={`Icons/${skill}.png`} />
 
         <div className="text-textColor font-mono text-xl xs-mx:!text-md">
             {skill}
