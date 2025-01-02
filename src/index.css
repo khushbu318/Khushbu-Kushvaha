@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  html{
+    --primary-color:"#64ffda";
+    scroll-behavior: smooth;
+  }
+
+  .my-font {
+    font-family: 'Fira Code' , 'Source Code Pro', monospace;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.1rem;
+  }
+
+  *::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #0A192F;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color:black;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #64FFDA;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #64FFDA;
+  }
