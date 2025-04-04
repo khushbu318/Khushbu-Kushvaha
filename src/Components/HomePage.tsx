@@ -29,7 +29,7 @@ const HomePage=()=>{
         {/* <Projects/> */}
         <Skills/>
         <Experience/>
-        <Contact/>
+        {/* <Contact/> */}
         <Footer/>
         <Mail/>
         <Social/>
