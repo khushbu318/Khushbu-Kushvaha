@@ -74,7 +74,7 @@ const ExpInfo = [
       image: "cg.png",
       skills: ["Python", "Generative AI", "LangChain", "AWS Bedrock", "RAG", "SAP HANA", "React", "LLM Orchestration", "Machine Learning", "Time Series Prediction"],
       company: "Capgemini",
-      duration: "Jan 2023 - Present"
+      duration: "August 2023 - Present"
     },
     {
       title: "Python Developer",
@@ -82,7 +82,7 @@ const ExpInfo = [
       image: "cg.png",
       skills: ["Python", "Streamlit", "Machine Learning", "Data Visualization", "SQL", "Generative AI"],
       company: "Capgemini",
-      duration: "July 2022 - Dec 2023"
+      duration: "July 2022 - July 2023"
     }
   ];
 
