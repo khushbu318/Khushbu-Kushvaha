@@ -2,8 +2,8 @@ import { IconBrandGithub, IconBrandLinkedin, IconPhone } from "@tabler/icons-rea
 
 const Info = {
     name: "Khushbu Kushvaha",
-    roles: ["Python Developer", "Ai Engineer", "ML Engineer", "Prompt Engineer"],
-    bio: "I'm a passionate software engineer specializing in Python development and AI/ML engineering, dedicated to crafting efficient, scalable solutions and delivering impactful data-driven applications. With expertise in building web applications, integrating AI models, and streamlining workflows, I focus on creating innovative tools that solve real-world problems."
+    roles: ["Python Developer", "Ai Engineer", "ML Engineer", "Python Developer"],
+    bio: "Curious and adaptable AI/ML Developer with hands-on experience in building Gen AI prototypes, predictive models, and smart data tools. Comfortable working across the stack with Python and React.js, and familiar with LLM orchestration, RAG, and Agentic AI frameworks. Quick to learn and eager to explore new technologies, with a strong focus on solving real-world problems through innovative, data-driven solutions."
 
 }
 
@@ -27,64 +27,79 @@ const ProjectInfo = [
 
 const SkillInfo = [
     {
-        "title": "Frontend",
-        "skills": [
-            "React.js",
-            "HTML",
-            "CSS",
-            "TailwindCSS",
-            "JavaScript"
-        ]
-    },
-    {
-        "title": "Backend",
-        "skills": [
-            "Django",
-            "Flask"
-        ]
-    },
-    {
-        "title": "Languages",
-        "skills": [
+        title: "Languages",
+        skills: [
             "Python",
             "SQL",
             "JavaScript"
         ]
     },
     {
-        "title": "Tools & Frameworks",
-        "skills": [
-            "LangChain",
-            "Bedrock",
-            "Pandas",
-            "NumPy",
-            "Scikit-learn",
-            "Hugging Face",
-            "Matplotlib",
-            "Seaborn",
-            "Git"
+        title: "Databases",
+        skills: [
+            "PostgreSQL",
+            "SQLite",
+            "Vector Database"
         ]
-    }
-]
-
-const ExpInfo = [
-    {
-      title: "Gen AI Developer",
-      desc: "As a Gen AI Developer, gained expertise in Generative AI and LLMs, integrating embeddings and database workflows to enhance automation and deliver business insights. Developed impactful solutions, including a Generative AI-powered invoice management system for fraud detection and multilingual invoice processing. Built a RAG-powered chatbot for SAP HANA developers, improving data migration efficiency. Automated SQL query generation, integrated React for data visualization, and created time series models for electricity consumption prediction.",
-      image: "cg.png",
-      skills: ["Python", "Generative AI", "LangChain", "AWS Bedrock", "RAG", "SAP HANA", "React", "LLM Orchestration", "Machine Learning", "Time Series Prediction"],
-      company: "Capgemini",
-      duration: "August 2023 - Present"
     },
     {
-      title: "Python Developer",
-      desc: "Joined Capgemini in July 2022 and completed training in Python, Java, Apache Spark, Hadoop, SQL, and ETL tools like Talend. As a Python Developer, built a machine learning model to predict patient attendance, created Streamlit dashboards to rank bench employees for optimized hiring, and streamlined resource allocation through data visualization workflows. Led a team in a hackathon, developing a Streamlit web app for efficient data cleaning and transformation, and secured advancement to the second round.",
-      image: "cg.png",
-      skills: ["Python", "Streamlit", "Machine Learning", "Data Visualization", "SQL", "Generative AI"],
-      company: "Capgemini",
-      duration: "July 2022 - July 2023"
+        title: "Frameworks & Tools",
+        skills: [
+            "React.js",
+            "Django",
+            "Flask",
+            "Streamlit",
+            "Semantic Kernel",
+            "LangChain",
+            "Bedrock",
+            "Faiss",
+            "Git",
+            "GitHub Copilot",
+            "Google Charts",
+            "Azure",
+            "AWS"
+        ]
+    },
+    {
+        title: "AI/ML",
+        skills: [
+            "Machine Learning",
+            "Time Series Forecasting",
+            "Generative AI",
+            "Prompt Engineering",
+            "RAG",
+            "Agentic AI Frameworks"
+        ]
     }
-  ];
+];
+
+const ExpInfo = [
+  {
+    title: "AI/ML Developer",
+    desc: "Monitored and refined a time series model using hana_ml to forecast electricity usage, enabling cost-saving decisions and CO₂ reduction. Built a prototype using Agentic AI to streamline SSP–Hub workflows for rare medication access. Developed multi-agent systems using Semantic Kernel, React, and Flask to monitor eligibility and financial aid, gaining hands-on experience with Azure and GitHub Copilot.",
+    image: "cg.png",
+    skills: ["Python", "Time Series Forecasting", "Agentic AI", "Semantic Kernel", "React", "Flask", "Azure", "GitHub Copilot"],
+    company: "Capgemini",
+    duration: "2024 - Present"
+  },
+  {
+    title: "Gen AI Developer",
+    desc: "Forecasted hourly electricity usage using hana_ml, enabling cost-saving decisions and CO₂ reduction. Prototyped a Gen AI invoice system on AWS to process multilingual invoices and detect fraud. Built a RAG-based chatbot for SAP HANA developers to support data migration, which gained internal success and client interest. Developed a natural language–to–SQL tool with React and Google Charts to streamline data analysis for non-technical users.",
+    image: "cg.png",
+    skills: ["Python", "Generative AI", "AWS", "RAG", "React", "Google Charts"],
+    company: "Capgemini",
+    duration: "2023 - 2024"
+  },
+  {
+    title: "Python Developer",
+    desc: "Built a machine learning model to predict patient no-shows, improving scheduling efficiency. Developed Streamlit dashboards to rank bench employees and enhance resource utilization. Led a hackathon team to create a one-click data cleaning app, advancing to round two and earning a Gen AI Developer role. Explored Generative AI and LLMs during a shadowing period, gaining hands-on experience with RAG pipelines and embedding workflows.",
+    image: "cg.png",
+    skills: ["Python", "Machine Learning", "Streamlit", "Data Visualization", "RAG", "LLMs", "Vector Databases"],
+    company: "Capgemini",
+    duration: "July 2022 - 2023"
+  }
+];
+
 
   const slugs = [
     "typescript",
