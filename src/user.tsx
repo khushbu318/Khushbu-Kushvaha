@@ -31,47 +31,44 @@ const SkillInfo = [
         skills: [
             "Python",
             "SQL",
-            "JavaScript"
+            "JavaScript",
+            "CSS",
+            "HTML"
         ]
     },
     {
         title: "Databases",
         skills: [
             "PostgreSQL",
-            "SQLite",
-            "Vector Database"
+            "SQLite"
         ]
     },
     {
-        title: "Frameworks & Tools",
+        title: "Frameworks",
         skills: [
             "React.js",
             "Django",
             "Flask",
             "Streamlit",
             "Semantic Kernel",
+            "LangGraph",
             "LangChain",
             "Bedrock",
-            "Faiss",
-            "Git",
-            "GitHub Copilot",
-            "Google Charts",
-            "Azure",
-            "AWS"
+            "FAISS",
+            "Hugging Face"
         ]
     },
     {
-        title: "AI/ML",
+        title: "Tools",
         skills: [
-            "Machine Learning",
-            "Time Series Forecasting",
-            "Generative AI",
-            "Prompt Engineering",
-            "RAG",
-            "Agentic AI Frameworks"
+            "GitHub Copilot",
+            "Git",
+            "Azure",
+            "AWS"
         ]
     }
 ];
+
 
 const ExpInfo = [
   {
